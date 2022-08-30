@@ -7,9 +7,9 @@ import Login from './Login';
 function App() {
 	return (
 		<main className="App">
-			<Router>
+			<Router basename={'/project-react'}>
 				<Routes>
-					<Route path="/project-react" element={<Register />} />
+					<Route path="/" element={<Register />} />
 					<Route path="/login" element={<Login />} />
 				</Routes>
 			</Router>
