@@ -9,7 +9,7 @@ function App() {
 		<main className="App">
 			<Router>
 				<Routes>
-					<Route path="/" element={<Register />} />
+					<Route path="/project-react" element={<Register />} />
 					<Route path="/login" element={<Login />} />
 				</Routes>
 			</Router>
